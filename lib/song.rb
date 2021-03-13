@@ -10,7 +10,7 @@ class Song
   end
 
   def save
-    @@all << self
+    @@allbum << self
   end
 
   def self.all
